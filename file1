@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 {
-    int x,y;
-    int *p=&x;
-    int *q=&y;
+    int a,b;
+    int *p=&a;
+    int *q=&b;
     // taking input using pointer
     cout<<"enter the first number : "<<endl;
     cin>> *p;
