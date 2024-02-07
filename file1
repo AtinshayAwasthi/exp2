@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x,y;
+    int *p=&x;
+    int *q=&y;
+    // taking input using pointer
+    cout<<"enter the first number : "<<endl;
+    cin>> *p;
+    cout<<"enter the second number : "<<endl;
+    cin>> *q;
+    cout<<"sum is : "<<(*p + *q);
+    
+}
